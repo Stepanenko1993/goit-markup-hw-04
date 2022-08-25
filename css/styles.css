@@ -75,10 +75,21 @@ ul{
     padding-bottom: 25px;
 }
 .mail-link{
-    margin-left: 344px;
+    display: flex;
+    margin-left: 10px;
 }
+
+.mail-img{
+    display: flex;
+    margin-left: 318px;
+}
+
 .contact-phone{
-    margin-left: 50px;
+    margin-left: 10px;
+}
+.tel-img{
+    display: flex;
+    margin-left: 30px;
 }
 .header-top{
     background-color: var(--secondary-text-color);
@@ -176,11 +187,42 @@ font-weight: 700;
     background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
-   
+        width: 1600px;
+        
         margin-left: auto;
         margin-right: auto;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        url(../images/Img\(16\)\(1\).jpg);
+        background-size: cover; 
+        
 }
+.icon-section{
+   display: flex;
+   align-items: center;
+    width: 270px;
+        height: 120px;
+        background-color: var(--background);
+        border-radius: 4px;
+}
+.icon-container-section{
+     display: flex;
     
+    column-gap: 30px;
+    padding-bottom: 30px;
+    
+  
+
+}
+.section-icon-list{
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+        height: 70px;
+       
+       
+}
+
 .main-list{
     margin-left: auto;
     margin-right: auto;
@@ -276,6 +318,7 @@ font-weight: 700;
 .list-content{
     display: flex;
  column-gap: 30px;
+
  
 
 }
@@ -385,6 +428,7 @@ letter-spacing: 0.03em;
  }   
  .team-color{
     background-color: var(--secondary-text-color);
+    
  }       
 
 .hover-nav:hover,
