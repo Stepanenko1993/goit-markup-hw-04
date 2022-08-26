@@ -73,28 +73,78 @@ ul{
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
+    
+}
+.mail-nav{
+    margin-left: 318px;
+    text-align: center;
+   
 }
 .mail-link{
-    display: flex;
-    margin-left: 10px;
+    margin-right: 30px
 }
-
 .mail-img{
-    display: flex;
-    margin-left: 318px;
+    margin-right: 10px;
+    
 }
-
-.contact-phone{
-    margin-left: 10px;
+.mail-link:hover{
+    color: var(--logo-color);
+}
+.contact-phone:hover{
+    color: var(--logo-color);
 }
 .tel-img{
-    display: flex;
-    margin-left: 30px;
+    margin-right: 10px;
+    
 }
+
+
+.mail-link,
+.contact-phone{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+    
+    
+}
+
+
+.menu-nav-list{
+    display: flex;
+    
+    
+}
+
 .header-top{
     background-color: var(--secondary-text-color);
     
    
+}
+.clients{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 30px;
+}
+
+.icon-logo-items{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    background-color: var(--background-color);
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+.icon-logo-items:hover,
+.icon-logo-items:focus{
+    border-color:var(--logo-color);
+    cursor: pointer;
+}
+.logo-items-container{
+    fill: var(--primary-text);
 }
 
 
@@ -141,7 +191,9 @@ font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.02em;
     
-        color: var(--primary-text)
+        color: var(--primary-text);
+        fill: currentColor;
+        
 }
 
     
@@ -196,6 +248,7 @@ font-weight: 700;
         background-size: cover; 
         
 }
+
 .icon-section{
    display: flex;
    align-items: center;
@@ -204,15 +257,29 @@ font-weight: 700;
         background-color: var(--background);
         border-radius: 4px;
 }
+
+.icon-logo-main{
+    padding-bottom: 50px;
+}
 .icon-container-section{
      display: flex;
-    
+    margin-left: auto;
+    margin-right: auto;
     column-gap: 30px;
     padding-bottom: 30px;
+   
     
   
 
 }
+.logo-items-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 106px;
+    height: 60px;
+     fill: var(--primary-text);
+}
+
 .section-icon-list{
    
     margin-left: auto;
@@ -502,6 +569,7 @@ letter-spacing: 0.03em;
 
 .mail{
     display: flex;
+    
     margin-bottom: 9px;
 }
 .link-address{
@@ -566,3 +634,8 @@ letter-spacing: 0.03em;
     border-right: 1px solid var(--border-solid);
     border-bottom: 1px solid var(--border-solid);
 }
+.social-list-icon{
+    fill: #757575;
+}
+
+
