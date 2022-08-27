@@ -15,6 +15,7 @@
     --tel-color:#ffffff99;
     --border-bottom: #ECECEC;
     --border-solid:#EEEEEE;
+    --background-icon: #AFB1B8;
 }
 
 h1,
@@ -272,13 +273,7 @@ font-weight: 700;
   
 
 }
-.logo-items-container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 106px;
-    height: 60px;
-     fill: var(--primary-text);
-}
+
 
 .section-icon-list{
    
@@ -491,9 +486,11 @@ letter-spacing: 0.03em;
 }   
  .team-photo{
     display: flex;
+   
     column-gap: 30px;
  }   
  .team-color{
+    
     background-color: var(--secondary-text-color);
     
  }       
@@ -612,8 +609,26 @@ letter-spacing: 0.03em;
     background-color: var(--background);
     
 }
+.logo-items-container{
+    fill:currentColor;
+}
 
 
+
+
+.icon-logo-items:hover,
+.icon-logo-items:focus{
+    color: var(--logo-color);
+}
+
+.logo-items-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 106px;
+    height: 60px;
+   
+     
+}
 
 
 
@@ -635,7 +650,25 @@ letter-spacing: 0.03em;
     border-bottom: 1px solid var(--border-solid);
 }
 .social-list-icon{
-    fill: #757575;
+    fill:var(--primary-text);
 }
 
 
+.team-color{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
+.link-jobs{
+  
+    width: 44px;
+    height: 44px;
+}
+
+
+
+.employees:hover,
+.employees:focus{
+    
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
